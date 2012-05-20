@@ -13,17 +13,15 @@ Install with **pip**::
     pip install https://github.com/mechanicalchopsticks/MongoEngine-Pagination/tarball/master
 
 
-Configuration
+Usage
 =============
 
-Basic setup is easy, just fetch the extension::
+Basic usage is easy, just use the import the Document class and use it as base for your objects::
 
-    from flask import Flask
-    from flaskext.mongoengine import MongoEngine
+    from mongoenginepagination import Document
 
-    app = Flask(__name__)
-    app.config.from_pyfile('the-config.cfg')
-    db = MongoEngine(app)
+    class Todo(Document):
+    	pass
 
 
 Custom Queryset

@@ -13,6 +13,9 @@ build/*
 *.xcworkspace
 xcuserdata
 
+#PyCharm noise
+.idea/*
+
 # svn & cvs
 .svn
 CVS
