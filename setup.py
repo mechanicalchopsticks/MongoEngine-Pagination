@@ -27,7 +27,6 @@ setup(
     description='Pagination support for MongoEngine',
     long_description=__doc__,
     packages=['mongoenginepagination'],
-    namespace_packages=['mongoenginepagination'],
     test_suite='nose.collector',
     zip_safe=False,
     platforms='any',
